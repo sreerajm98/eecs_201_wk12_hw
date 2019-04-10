@@ -1,0 +1,10 @@
+# UMich GitLab
+Host gitlab
+	HostName gitlab.com
+	User git
+	IdentityFile ~/.ssh/sreerajm_rsa
+#CAEN
+Host chn
+	HostName login.engin.umich.edu
+	User sreerajm
+	Compression yes
